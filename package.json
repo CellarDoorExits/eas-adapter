@@ -1,0 +1,64 @@
+{
+  "name": "@cellar-door/eas",
+  "version": "0.1.0",
+  "description": "EAS (Ethereum Attestation Service) adapter for EXIT Protocol — anchor departure markers as on-chain attestations",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@ethereum-attestation-service/eas-sdk": "^2.7.0",
+    "ethers": "^6.13.0",
+    "viem": "^2.0.0"
+  },
+  "peerDependencies": {
+    "cellar-door-exit": ">=0.2.0"
+  },
+  "peerDependenciesMeta": {
+    "cellar-door-exit": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "cellar-door-exit": "^0.2.2",
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^4.0.18"
+  },
+  "keywords": [
+    "exit-protocol",
+    "eas",
+    "ethereum-attestation-service",
+    "ai-agents",
+    "departure-records",
+    "soulbound",
+    "base",
+    "attestation",
+    "cellar-door",
+    "did"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CellarDoorExits/eas-adapter.git"
+  },
+  "homepage": "https://cellar-door.dev",
+  "license": "Apache-2.0",
+  "author": "Cellar Door Exits"
+}
