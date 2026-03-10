@@ -2,6 +2,8 @@
 
 > Anchor EXIT departure markers as on-chain attestations via [EAS](https://attest.org) (Ethereum Attestation Service).
 
+> **[𓉸 Passage Protocol](https://cellar-door.dev)** · [exit-door](https://github.com/CellarDoorExits/exit-door) · [entry-door](https://github.com/CellarDoorExits/entry-door) · [mcp](https://github.com/CellarDoorExits/mcp-server) · [langchain](https://github.com/CellarDoorExits/langchain) · [vercel](https://github.com/CellarDoorExits/vercel-ai-sdk) · [eliza](https://github.com/CellarDoorExits/eliza-exit) · [eas](https://github.com/CellarDoorExits/eas-adapter) · [erc-8004](https://github.com/CellarDoorExits/erc-8004-adapter) · [sign](https://github.com/CellarDoorExits/sign-protocol-adapter) · [python](https://github.com/CellarDoorExits/exit-python)
+
 ⚠️ **Pre-release software.** No formal security audit has been performed. Use at your own risk. Report vulnerabilities to hawthornhollows@gmail.com.
 
 ## What This Does
