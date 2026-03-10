@@ -24,6 +24,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "@cellar-door/attestation-core": ">=0.1.0",
     "@ethereum-attestation-service/eas-sdk": "^2.7.0",
     "ethers": "^6.13.0",
     "viem": "^2.0.0"
